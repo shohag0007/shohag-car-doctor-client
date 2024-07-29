@@ -12,7 +12,7 @@ const Banner = () => {
                 <img
                     src={img1}
                     className="w-full rounded-xl" />
-                <div className="absolute left-0 top-0 h-full flex items-center   bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
+                <div className="absolute left-0 top-0 h-full flex items-center rounded-xl  bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
                     <div className='space-y-7 w-1/2 pl-12'>
                         <h2 className='text-6xl font-bold text-white'>Affordable Price For Car Servicing</h2>
                    <p className='text-white'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
@@ -28,27 +28,57 @@ const Banner = () => {
                 </div>
             </div>
             <div id="slide2" className="carousel-item relative w-full">
-                <img
+             <img
                     src={img2}
-                    className=" w-full rounded-xl" />
-                <div className="absolute left-5 right-5  flex -translate-y-1/2 transform  bottom-0 justify-end">
+                    className="w-full rounded-xl" />
+                <div className="absolute left-0 top-0 h-full flex items-center rounded-xl  bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
+                    <div className='space-y-7 w-1/2 pl-12'>
+                        <h2 className='text-6xl font-bold text-white'>Affordable Price For Car Servicing</h2>
+                   <p className='text-white'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
+                    <div>
+                    <button className="btn btn-primary mr-5">Discover More</button>
+                    <button className="btn btn-outline btn-secondary">Latest Projects</button>
+                    </div>
+                    </div>
+                </div>
+                <div className="absolute left-5 right-5  flex -translate-y-1/2 transform bottom-0 justify-end">
                     <a href="#slide1" className="btn btn-circle mr-4">❮</a>
                     <a href="#slide3" className="btn btn-circle">❯</a>
                 </div>
             </div>
             <div id="slide3" className="carousel-item relative w-full">
-                <img
+            <img
                     src={img3}
                     className="w-full rounded-xl" />
+                <div className="absolute left-0 top-0 h-full flex items-center rounded-xl  bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
+                    <div className='space-y-7 w-1/2 pl-12'>
+                        <h2 className='text-6xl font-bold text-white'>Affordable Price For Car Servicing</h2>
+                   <p className='text-white'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
+                    <div>
+                    <button className="btn btn-primary mr-5">Discover More</button>
+                    <button className="btn btn-outline btn-secondary">Latest Projects</button>
+                    </div>
+                    </div>
+                </div>
                 <div className="absolute left-5 right-5  flex -translate-y-1/2 transform bottom-0 justify-end">
                     <a href="#slide2" className="btn btn-circle mr-4">❮</a>
                     <a href="#slide4" className="btn btn-circle">❯</a>
                 </div>
             </div>
             <div id="slide4" className="carousel-item relative w-full">
-                <img
+            <img
                     src={img4}
                     className="w-full rounded-xl" />
+                <div className="absolute left-0 top-0 h-full flex items-center rounded-xl  bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
+                    <div className='space-y-7 w-1/2 pl-12'>
+                        <h2 className='text-6xl font-bold text-white'>Affordable Price For Car Servicing</h2>
+                   <p className='text-white'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
+                    <div>
+                    <button className="btn btn-primary mr-5">Discover More</button>
+                    <button className="btn btn-outline btn-secondary">Latest Projects</button>
+                    </div>
+                    </div>
+                </div>
                 <div className="absolute left-5 right-5  flex -translate-y-1/2 transform bottom-0 justify-end">
                     <a href="#slide3" className="btn btn-circle mr-4">❮</a>
                     <a href="#slide1" className="btn btn-circle">❯</a>
